@@ -330,7 +330,7 @@ def ResumptionListGenerator(firstBatch, nextBatch):
     result, token = firstBatch()
     while 1:
         for item in result:
-            yield item
+            yield item, token
         if token is None:
             break
         result, token = nextBatch(token)
