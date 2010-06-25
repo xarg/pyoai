@@ -59,6 +59,9 @@ class BaseClient(common.OAIPMH):
             # until is None but is explicitly in kw, remove it
             del kw['until']
 
+        #There can be no resumptionToken and metadataPrefix at the same time
+        if verb == 'ListRecords' and kw.get('resumptionToken'):
+            del(kw['metadataPrefix'])
         # now call underlying implementation
         method_name = verb + '_impl'
         return getattr(self, method_name)(

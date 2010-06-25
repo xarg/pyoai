@@ -4,10 +4,10 @@ class IOAI:
 
         metadataPrefix - identifies metadata set to retrieve
         identifier - repository-unique identifier of record
-        
+
         Should raise error.CannotDisseminateFormatError if
         metadataPrefix is unknown or not supported by identifier.
-        
+
         Should raise error.IdDoesNotExistError if identifier is
         unknown or illegal.
 
@@ -34,10 +34,10 @@ class IOAI:
 
         Should raise error.NoSetHierarchyError if the repository does not
         support sets.
-        
+
         Returns an iterable of headers.
         """
-        
+
     def listMetadataFormats(identifier=None):
         """List metadata formats supported by repository or record.
 
@@ -48,15 +48,16 @@ class IOAI:
 
         Should raise error.IdDoesNotExistError if record with
         identifier does not exist.
-        
+
         Should raise error.NoMetadataFormatsError if no formats are
         available for the indicated record.
 
         Returns an iterable of metadataPrefix, schema, metadataNamespace
         tuples (each entry in the tuple is a string).
         """
-        
-    def listRecords(metadataPrefix, set=None, from_=None, until=None):
+
+    def listRecords(metadataPrefix, set=None, from_=None, until=None,
+                    resumptionToken=None):
         """Get a list of header, metadata and about information on records.
 
         metadataPrefix - identifies metadata set to retrieve
@@ -64,6 +65,9 @@ class IOAI:
         from_ - only retrieve records from from_ date forward (optional)
         until - only retrieve records with dates up to and including
                 until date (optional)
+        resumptionToken - an exclusive argument with a value that is the flow
+                          control token returned by a previous ListRecords
+                          request that issued an incomplete list.
 
         Should raise error.CannotDisseminateFormatError if metadataPrefix
         is not supported by the repository.
@@ -82,7 +86,7 @@ class IOAI:
 
         Returns an iterable of setSpec, setName tuples (strings).
         """
-        
+
 class IBatchingOAI:
     """Very similar to IOAI, but the implementation can be batch-aware.
 
@@ -90,27 +94,27 @@ class IBatchingOAI:
     cursor and batch_size, which indicate the batch currently being
     requested.
     """
-    
+
     def getRecord(metadataPrefix, identifier):
         pass
-    
+
     def identify():
         pass
-    
+
     def listIdentifiers(metadataPrefix, set=None, from_=None, until=None,
                         cursor=0, batch_size=10):
         pass
-    
+
     def listMetadataFormats(identifier=None):
         pass
-    
+
     def listRecords(metadataPrefix, set=None, from_=None, until=None,
                     cursor=0, batch_size=10):
         pass
-    
+
     def listSets():
         pass
-    
+
 class IIdentify:
     def repositoryName():
         """Name of repository.
@@ -149,7 +153,7 @@ class IIdentify:
 
         'identity' is the 'do-nothing' scheme.
         """
-        
+
 class IHeader:
     def identifier():
         """Repository-unique identifier of this record.

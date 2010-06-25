@@ -21,19 +21,19 @@ def validate(argspec, dict):
             raise BadArgumentError, msg
         return
     # if not exclusive, check for required
-    for arg_name, arg_type in argspec.items(): 
+    for arg_name, arg_type in argspec.items():
         if arg_type == 'required':
             msg = "Argument required but not found: %s" % arg_name
             if not dict.has_key(arg_name):
-                raise BadArgumentError, msg 
+                raise BadArgumentError, msg
     return
-        
+
 class ValidationSpec(object):
     GetRecord = {
         'identifier':'required',
         'metadataPrefix':'required'
         }
-    
+
     Identify = {
         }
 
@@ -52,6 +52,7 @@ class ValidationSpec(object):
         'from_':'optional',
         'until':'optional',
         'set':'optional',
+        'resumptionToken':'optional',
         'metadataPrefix':'required',
         }
 
@@ -67,7 +68,7 @@ class ResumptionValidationSpec(ValidationSpec):
         'set':'optional',
         'resumptionToken':'exclusive',
         }
-    
+
     ListRecords = {
         'from_':'optional',
         'until':'optional',
@@ -85,4 +86,3 @@ def validateArguments(verb, kw):
 
 def validateResumptionArguments(verb, kw):
     validate(getattr(ResumptionValidationSpec, verb), kw)
-    
