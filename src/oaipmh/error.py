@@ -44,7 +44,7 @@ class ClientError(Exception):
         """
         raise NotImplementedError
 
-class XSDError(ClientError):
+class XMLValidationError(ClientError):
     """The data delivered by the server could not be parsed, as it 
     is not conform to XSD."""
     pass

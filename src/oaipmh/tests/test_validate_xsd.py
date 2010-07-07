@@ -20,11 +20,11 @@ class ClientTestCase(TestCase):
         #broken xml
         self.assertRaises(error.XMLSyntaxError,test_document,"00001.xml")
         #empty header
-        self.assertRaises(error.XSDError,test_document,"00002.xml")
+        self.assertRaises(error.XMLValidationError,test_document,"00002.xml")
         #no request tag
-        self.assertRaises(error.XSDError,test_document,"00000.xml")
+        self.assertRaises(error.XMLValidationError,test_document,"00000.xml")
         #no <datestamp> in header
-        self.assertRaises(error.XSDError,test_document,"00003.xml")
+        self.assertRaises(error.XMLValidationError,test_document,"00003.xml")
 
 def test_document(filepath):
     xml = open(os.path.join(directory,"fake6/"+filepath))
@@ -37,7 +37,7 @@ def test_document(filepath):
     try:
         fakeclient._xmlschema.assertValid(tree)
     except Exception, e:
-        raise error.XSDError    
+        raise error.XMLValidationError    
                 
 def test_suite():
     return TestSuite((makeSuite(ClientTestCase), ))

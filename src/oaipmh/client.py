@@ -285,7 +285,7 @@ class BaseClient(common.OAIPMH):
         try:
             self._xmlschema.assertValid(tree)
         except Exception , e:
-            raise error.XSDError
+            raise error.XMLValidationError
         
         # check whether there are errors first
         e_errors = tree.xpath('/oai:OAI-PMH/oai:error',
