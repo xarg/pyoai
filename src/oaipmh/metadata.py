@@ -134,7 +134,6 @@ oai_dc_reader = MetadataReader(
     namespaces={
     'oai_dc': 'http://www.openarchives.org/OAI/2.0/oai_dc/',
     'dc' : 'http://purl.org/dc/elements/1.1/'},
-    flags=['xml:lang']
     )
 
     
