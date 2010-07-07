@@ -63,4 +63,4 @@ def test_suite():
     return unittest.TestSuite([unittest.makeSuite(ArgumentValidatorTestCase)])
 
 if __name__=='__main__':
-    main(defaultTest='test_suite')
+    unittest.main(defaultTest='test_suite')

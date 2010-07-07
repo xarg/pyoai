@@ -35,6 +35,7 @@ class NoSetHierarchyError(ErrorBase):
 class UnknownError(ErrorBase):
     pass
 
+
 # errors not defined by OAI-PMH but which can occur in a client when
 # the server is somehow misbehaving
 class ClientError(Exception):
@@ -43,12 +44,20 @@ class ClientError(Exception):
         """
         raise NotImplementedError
 
+class XSDError(ClientError):
+    """The data delivered by the server could not be parsed, as it 
+    is not conform to XSD."""
+    pass
+
 class XMLSyntaxError(ClientError):
     """The OAI-PMH XML can not be parsed as it is not well-formed.
     """
-    def details(self):
-        return ("The data delivered by the server could not be parsed, as it "
-                "is not well-formed XML.")
+    pass
+
+class UnexpectedResponse(ClientError):
+    """The server issued a different response than requested
+    """
+    pass
     
 class DatestampError(ClientError):
     """The OAI-PMH datestamps were not proper UTC datestamps as by spec.
@@ -58,4 +67,3 @@ class DatestampError(ClientError):
 
     def details(self):
         return ("An illegal datestamp was encountered: %s" % self.datestamp)
-    

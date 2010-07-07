@@ -3,11 +3,17 @@ import os.path
 from datetime import datetime
 from urllib import urlencode
 from string import zfill
+from lxml import etree
 
 class FakeClient(client.BaseClient):
     def __init__(self, mapping_path):
         client.BaseClient.__init__(self)
         self._mapping = createMapping(mapping_path)
+        
+        f=open(os.path.join(os.path.dirname(__file__),"OAI-PMH.xsd"))
+        xmlschema_tree = etree.parse(f)
+        self._xmlschema = etree.XMLSchema(xmlschema_tree)
+        f.close()
         
     def makeRequest(self, **kw):
         # this is a complete fake, and can only deal with a number of

@@ -8,6 +8,8 @@ from StringIO import StringIO
 from types import SliceType
 from lxml import etree
 import time
+#REVIEW
+import os.path
 
 from oaipmh import common, metadata, validation, error
 from oaipmh.datestamp import datestamp_to_datetime, datetime_to_datestamp
@@ -193,7 +195,11 @@ class BaseClient(common.OAIPMH):
                 verb='ListSets',
                 resumptionToken=token)
             return self.buildSets(namespaces, tree)
-        return ResumptionListGenerator(firstBatch, nextBatch)
+        def generator(list):
+            for elem in list:
+                yield elem
+        list = map(lambda x:x[0], ResumptionListGenerator(firstBatch, nextBatch))
+        return generator(list)
 
     # various helper methods
 
@@ -275,6 +281,12 @@ class BaseClient(common.OAIPMH):
             tree = self.parse(xml)
         except SyntaxError:
             raise error.XMLSyntaxError(kw)
+        #check XSD validity
+        try:
+            self._xmlschema.assertValid(tree)
+        except Exception , e:
+            raise error.XSDError
+        
         # check whether there are errors first
         e_errors = tree.xpath('/oai:OAI-PMH/oai:error',
                               namespaces=self.getNamespaces())
@@ -293,6 +305,18 @@ class BaseClient(common.OAIPMH):
                         code, msg)
                 # find exception in error module and raise with msg
                 raise getattr(error, code[0].upper() + code[1:] + 'Error'), msg
+        
+        #check if expected response
+        request_node = tree.xpath('/oai:OAI-PMH/oai:request',namespaces=self.getNamespaces())
+        if request_node:
+            actual_response = request_node[0].attrib['verb']
+            expected_response = kw['verb']
+            if expected_response != actual_response:
+                raise error.UnexpectedResponse
+            if actual_response == 'ListRecords':
+                meta_node = tree.xpath('/oai:OAI-PMH/oai:ListRecords/oai:record/oai:metadata',namespaces=self.getNamespaces())
+                if not meta_node:
+                    raise error.UnexpectedResponse
         return tree
 
     def makeRequest(self, **kw):
@@ -307,6 +331,14 @@ class Client(BaseClient):
             self._credentials = base64.encodestring('%s:%s' % credentials)
         else:
             self._credentials = None
+            
+        #REVIEW
+        '''save XSD in a property for future use in xml-response validation'''
+        f=open(os.path.join(os.path.dirname(__file__),"tests/OAI-PMH.xsd"))
+        xmlschema_tree = etree.parse(f)
+        self._xmlschema = etree.XMLSchema(xmlschema_tree)
+        f.close()
+    
 
     def makeRequest(self, **kw):
         """Actually retrieve XML from the server.

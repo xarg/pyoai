@@ -1,4 +1,5 @@
-
+from lxml import etree
+import os.path
 #
 class BadArgumentError(Exception):
     pass
@@ -86,3 +87,4 @@ def validateArguments(verb, kw):
 
 def validateResumptionArguments(verb, kw):
     validate(getattr(ResumptionValidationSpec, verb), kw)
+    

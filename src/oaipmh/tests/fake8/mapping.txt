@@ -1,0 +1,4 @@
+from=2003-04-11T00%3A00%3A00Z&metadataPrefix=oai_dc&verb=ListRecords
+00000.xml
+from=2003-04-10T00%3A00%3A00Z&metadataPrefix=oai_dc&verb=ListRecords
+00005.xml

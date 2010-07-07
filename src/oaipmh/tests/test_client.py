@@ -2,7 +2,7 @@ from unittest import TestCase, TestSuite, main, makeSuite
 from fakeclient import FakeClient, GranularityFakeClient, TestError
 import os
 from datetime import datetime
-from oaipmh import common, metadata, validation
+from oaipmh import common, metadata, validation, error
 
 directory = os.path.dirname(__file__)
 fake1 = os.path.join(directory, 'fake1')
@@ -158,6 +158,11 @@ class ClientTestCase(TestCase):
         except TestError, e:
             self.assertEquals('2003-04-10', e.kw['from'])
             self.assertEquals('2004-06-17', e.kw['until'])
+            
+    def test_getRecord_unexpectedresponse(self):
+        self.assertRaises(error.UnexpectedResponse,fakeclient.getRecord,
+            metadataPrefix='oai_dc', identifier='hdl:1765/316')
+        
             
 def test_suite():
     return TestSuite((makeSuite(ClientTestCase), ))
