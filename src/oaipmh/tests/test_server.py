@@ -25,6 +25,8 @@ class XMLTreeServerTestCase(unittest.TestCase):
         directory = os.path.dirname(__file__)
         fake1 = os.path.join(directory, 'fake1')
         myserver = fakeclient.FakeClient(fake1)
+        myserver.getMetadataRegistry().registerReader(
+                                            'oai_dc', metadata.oai_dc_reader)
         metadata_registry = metadata.MetadataRegistry()
         metadata_registry.registerWriter('oai_dc', server.oai_dc_writer)
         return server.XMLTreeServer(server.Resumption(myserver),
@@ -408,4 +410,4 @@ def test_suite():
         unittest.makeSuite(NsMapTestCase)])
 
 if __name__=='__main__':
-    main(defaultTest='test_suite')
+    unittest.main(defaultTest='test_suite')

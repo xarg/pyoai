@@ -10,11 +10,6 @@ class FakeClient(client.BaseClient):
         client.BaseClient.__init__(self)
         self._mapping = createMapping(mapping_path)
         
-        f=open(os.path.join(os.path.dirname(__file__),"OAI-PMH.xsd"))
-        xmlschema_tree = etree.parse(f)
-        self._xmlschema = etree.XMLSchema(xmlschema_tree)
-        f.close()
-        
     def makeRequest(self, **kw):
         # this is a complete fake, and can only deal with a number of
         # fixed requests that are mapped to files

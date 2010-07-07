@@ -27,6 +27,11 @@ class BaseClient(common.OAIPMH):
             metadata_registry or metadata.global_metadata_registry)
         self._ignore_bad_character_hack = 0
         self._day_granularity = False
+        '''save XSD in a property for future use in xml-response validation'''
+        f=open(os.path.join(os.path.dirname(__file__),"tests/OAI-PMH.xsd"))
+        xmlschema_tree = etree.parse(f)
+        self._xmlschema = etree.XMLSchema(xmlschema_tree)
+        f.close()
 
     def updateGranularity(self):
         """Update the granularity setting dependent on that the server says.
@@ -330,15 +335,7 @@ class Client(BaseClient):
         if credentials is not None:
             self._credentials = base64.encodestring('%s:%s' % credentials)
         else:
-            self._credentials = None
-            
-        #REVIEW
-        '''save XSD in a property for future use in xml-response validation'''
-        f=open(os.path.join(os.path.dirname(__file__),"tests/OAI-PMH.xsd"))
-        xmlschema_tree = etree.parse(f)
-        self._xmlschema = etree.XMLSchema(xmlschema_tree)
-        f.close()
-    
+            self._credentials = None    
 
     def makeRequest(self, **kw):
         """Actually retrieve XML from the server.

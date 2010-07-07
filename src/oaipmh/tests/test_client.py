@@ -52,8 +52,8 @@ class ClientTestCase(TestCase):
         headers = fakeclient.listIdentifiers(from_=datetime(2003, 04, 10),
                                              metadataPrefix='oai_dc')
         # lazy, just test first one
-        headers = list(headers)
         
+        headers = list(headers)
         header = headers[0]
         self.assertEquals(
             'hdl:1765/308',
