@@ -54,7 +54,7 @@ class ClientTestCase(TestCase):
         # lazy, just test first one
         
         headers = list(headers)
-        header = headers[0]
+        header = headers[0][0]
         self.assertEquals(
             'hdl:1765/308',
             header.identifier())
@@ -99,7 +99,7 @@ class ClientTestCase(TestCase):
                                          metadataPrefix='oai_dc')
         records = list(records)
         # lazy, just test first one
-        header, metadata, about = records[0]
+        header, metadata, about = records[0][0]
         self.assertEquals(
             'hdl:1765/308',
             header.identifier())

@@ -44,6 +44,7 @@ class XMLTreeServer(object):
         return envelope
     
     def identify(self):
+        
         envelope, e_identify = self._outputEnvelope(verb='Identify')
         identify = self._server.identify()
         e_repositoryName = SubElement(e_identify, nsoai('repositoryName'))
@@ -111,6 +112,13 @@ class XMLTreeServer(object):
             verb="ListRecords", **kw)
         def outputFunc(element, records, token_kw):
             metadataPrefix = token_kw['metadataPrefix']
+            #clean record list from token, if present; test type to find out
+            try:
+                '''avoiding IndexError, although this shouldn't happen anyhow'''
+                if(type(records[0][0])==tuple):
+                    records = [ r for (r, token) in records]
+            except Exception:
+                pass
             for header, metadata, about in records:
                 e_record = SubElement(e_listRecords, nsoai('record'))
                 self._outputHeader(e_record, header)
@@ -209,6 +217,9 @@ class XMLTreeServer(object):
             e_resumptionToken.text = token
             
     def _outputHeader(self, element, header):
+        if(type(header)==tuple):
+            #we need to strip out token
+            header=header[0]
         e_header = SubElement(element, nsoai('header'))
         if header.isDeleted():
             e_header.set('status', 'deleted')
@@ -381,7 +392,7 @@ class Resumption(common.ResumptionOAIPMH):
                     kw, end_batch)
             else:
                 resumptionToken = None
-            return result[0:end_batch], resumptionToken
+            return result[0:end_batch], resumptionToken        
         return result
 
 class BatchingResumption(common.ResumptionOAIPMH):

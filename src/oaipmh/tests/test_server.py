@@ -200,11 +200,11 @@ class ClientServerTestCase(unittest.TestCase):
     def test_listIdentifiers(self):
         headers = self._client.listIdentifiers(metadataPrefix='oai_dc')
         self.assertEquals([str(i) for i in range(100)],
-                          [header.identifier() for header in headers])
+                          [header.identifier() for (header, token) in headers])
 
     def test_listRecords(self):
         records = self._client.listRecords(metadataPrefix='oai_dc')
-        records = list(records)
+        records = [rec for (rec, token) in list(records)]
         self.assertEquals(100, len(records))
         metadatas = [metadata for (header, metadata, about) in records]
         result = []
@@ -345,7 +345,7 @@ class DeletionTestCase(unittest.TestCase):
         headers = list(headers)
         self.assertEquals(12, len(headers))
         deleted_count = 0
-        for header in headers:
+        for (header, token) in headers:
             if header.isDeleted():
                 deleted_count += 1
         self.assertEquals(6, deleted_count)
@@ -357,7 +357,7 @@ class DeletionTestCase(unittest.TestCase):
         records = list(records)
         self.assertEquals(12, len(records))
         deleted_count = 0
-        for header, metadata, about in records:
+        for (header, metadata, about), token in records:
             if header.isDeleted():
                 deleted_count += 1
                 self.assertEquals(None, metadata)
