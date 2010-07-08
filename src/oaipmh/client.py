@@ -66,13 +66,24 @@ class BaseClient(common.OAIPMH):
             # until is None but is explicitly in kw, remove it
             del kw['until']
 
-        #There can be no resumptionToken and metadataPrefix at the same time
+        # There can be no resumptionToken and metadataPrefix at the same time.
+        # Otherwise, we will receive an error when doing the request.
+        # However, we may need both if we are recovering from a network
+        # problem. thus, we will save kw[metadataPrefix] in
+        # metadataPrefixSaved.
         if verb == 'ListRecords' and kw.get('resumptionToken'):
+            metadataPrefixSaved = kw['metadataPrefix']
             del(kw['metadataPrefix'])
+        else:
+            metadataPrefixSaved = None
+        # Do the request
+        tree = self.makeRequestErrorHandling(verb=verb, **kw)
+        # We need to add the metadataPrefixSaved back, if exists
+        if metadataPrefixSaved:
+            kw['metadataPrefix'] = metadataPrefixSaved
         # now call underlying implementation
         method_name = verb + '_impl'
-        return getattr(self, method_name)(
-            kw, self.makeRequestErrorHandling(verb=verb, **kw))
+        return getattr(self, method_name)(kw, tree)
 
     def getNamespaces(self):
         """Get OAI namespaces.
@@ -189,6 +200,11 @@ class BaseClient(common.OAIPMH):
             return self.buildRecords(
                 metadata_prefix, namespaces,
                 metadata_registry, tree)
+        # If we have a resumptionToken in the argument it means that we are
+        # recovering from a network error, thus we don't need to call the
+        # firstBatch as defined above.
+        if args.has_key('resumptionToken'):
+            firstBatch = lambda:nextBatch(args['resumptionToken'])
         return ResumptionListGenerator(firstBatch, nextBatch)
 
     def ListSets_impl(self, args, tree):

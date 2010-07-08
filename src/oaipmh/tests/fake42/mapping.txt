@@ -1,0 +1,4 @@
+metadataPrefix=oai_dc&verb=ListRecords
+00000.xml
+resumptionToken=84c35167b99e79&verb=ListRecords
+00001.xml

@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd http://purl.org/dc/terms/ http://dublincore.org/schemas/xmls/qdc/2003/04/02/dcterms.xsd" xmlns:TEI="http://www.tei-c.org/ns/1.0">
+  <responseDate>2010-07-08T00:06:21Z</responseDate>
+  <request verb="ListRecords" resumptionToken="84c35167b99e79">http://oai.revues.org/</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/21079/21697</identifier>
+
+        <datestamp>2010-05-19T11:32:13Z</datestamp>
+        <setSpec>oai:revues.org:assr:21079</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>OUVRAGES REÇUS</dc:title>
+
+          <dc:type>actualite</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2010-01-27</dc:date> 
+          <dc:identifier>http://assr.revues.org/21697</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+
+      <header>
+        <identifier>oai:revues.org:assr/21079/21080</identifier>
+        <datestamp>2010-05-19T11:28:29Z</datestamp>
+        <setSpec>oai:revues.org:assr:21079</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Michel Abitbol, Les Juifs d’Afrique du Nord sous Vichy</dc:title>
+          <dc:creator>Joëlle Allouche-Benayoun</dc:creator>
+          <dc:type>compterendu</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2010-01-13</dc:date> 
+          <dc:identifier>http://assr.revues.org/21080</dc:identifier>                                                                                                                              </oai_dc:dc>
+
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/21079/21470</identifier>
+        <datestamp>2010-05-19T11:28:20Z</datestamp>
+        <setSpec>oai:revues.org:assr:21079</setSpec>
+
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>À propos de : Camille Tarot, Le symbolique et le sacré. Théories de la religion, Paris, La Découverte, 2008, 860 p.</dc:title>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+
+          <dc:date>2013-01-01</dc:date> 
+          <dc:identifier>http://assr.revues.org/21470</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/21079/21483</identifier>
+
+        <datestamp>2010-05-19T11:28:17Z</datestamp>
+        <setSpec>oai:revues.org:assr:21079</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>In memoriam Lévi-Strauss (1908-2009)</dc:title>
+
+          <dc:creator>André Mary</dc:creator>
+          <dc:type>editorial</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2010-01-01</dc:date> 
+          <dc:identifier>http://assr.revues.org/21483</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/21306/21307</identifier>
+        <datestamp>2010-05-19T11:27:43Z</datestamp>
+        <setSpec>oai:revues.org:assr:21306</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Traduire l’intraduisible</dc:title>
+          <dc:creator>Pierre Lassave</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+
+          <dc:date>2012-10-01</dc:date> 
+          <dc:identifier>http://assr.revues.org/21307</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/21203/21292</identifier>
+
+        <datestamp>2010-05-19T11:27:40Z</datestamp>
+        <setSpec>oai:revues.org:assr:21203</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Le travail de la laïcité</dc:title>
+
+          <dc:creator>Jean-Louis Schlegel</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2012-07-01</dc:date> 
+          <dc:identifier>http://assr.revues.org/21292</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/21203/21289</identifier>
+        <datestamp>2010-05-19T11:27:37Z</datestamp>
+        <setSpec>oai:revues.org:assr:21203</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Pour une sociologie interculturelle et historique de la laïcité</dc:title>
+          <dc:creator>Jean Baubérot</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+
+          <dc:date>2012-07-01</dc:date> 
+          <dc:identifier>http://assr.revues.org/21289</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/21203/21204</identifier>
+
+        <datestamp>2010-05-19T11:27:13Z</datestamp>
+        <setSpec>oai:revues.org:assr:21203</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Introduction: les Amériques et la laïcité</dc:title>
+
+          <dc:creator>Micheline Milot</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2012-07-01</dc:date> 
+          <dc:identifier>http://assr.revues.org/21204</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/20976/20977</identifier>
+        <datestamp>2010-05-19T11:26:48Z</datestamp>
+        <setSpec>oai:revues.org:assr:20976</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Des expériences du surnaturel</dc:title>
+          <dc:creator>Guillaume Rozenberg</dc:creator>
+          <dc:creator>Jean-Pierre Albert</dc:creator>
+          <dc:type>article</dc:type>
+
+          <dc:language>fr</dc:language>
+          <dc:date>2012-01-01</dc:date> 
+          <dc:identifier>http://assr.revues.org/20977</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+
+        <identifier>oai:revues.org:assr/17603/20153</identifier>
+        <datestamp>2010-05-19T11:26:47Z</datestamp>
+        <setSpec>oai:revues.org:assr:17603</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+
+          <dc:title>Ouvrages reçus</dc:title>
+          <dc:type>compterendu</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2009-02-04</dc:date> 
+          <dc:identifier>http://assr.revues.org/20153</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/17603/18453</identifier>
+        <datestamp>2010-05-19T11:25:14Z</datestamp>
+        <setSpec>oai:revues.org:assr:17603</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Roberta B. Aluffi, Giovanni Zincone, (eds.), The Legal Treatment of Islamic Minorities in Europe</dc:title>
+          <dc:creator>Jean-Philippe Bras</dc:creator>
+          <dc:type>compterendu</dc:type>
+          <dc:language>fr</dc:language>
+
+          <dc:date>2009-02-04</dc:date> 
+          <dc:identifier>http://assr.revues.org/18453</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/17603/18183</identifier>
+
+        <datestamp>2010-05-19T11:25:07Z</datestamp>
+        <setSpec>oai:revues.org:assr:17603</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Code, codex et autres affaires</dc:title>
+
+          <dc:creator>Pierre Lassave</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2011-10-01</dc:date> 
+          <dc:identifier>http://assr.revues.org/18183</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/17603/17883</identifier>
+        <datestamp>2010-05-19T11:24:55Z</datestamp>
+        <setSpec>oai:revues.org:assr:17603</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Du paganisme au christianisme</dc:title>
+          <dc:creator>Pietro BOGLIONI</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+
+          <dc:date>2011-10-01</dc:date> 
+          <dc:identifier>http://assr.revues.org/17883</dc:identifier>
+          <dc:description  xml:lang="fr">Deux textes du vie siècle illustrent des aspects importants de la « mémoire des lieux et des temps » dans le passage du paganisme au christianisme. Dans le premier, Grégoire de Tours relate l’initiative pastorale d’un évêque auvergnat qui, impuissant à déraciner une fête païenne se déroulant sur le mont Helarius, construit sur les lieux une église en l’honneur du saint chrétien Hilarius. Dans le second, Grégoire le Grand donne aux missionnaires qu’il a envoyés en Angleterre des instructions sur la façon de transformer les temples païens en églises chrétiennes. Ces deux textes révèlent une stratégie pastorale complexe qui, face au paganisme, mêle adroitement les catégories de la destruction et de l’oblitération avec celle de la récupération.</dc:description>
+          <dc:description  xml:lang="en">This paper examines two sixth-century texts which illustrate important aspects of the “remembrance of places and times” in the transition from paganism to Christianity. In the first one, Gregory of Tours describes the pastoral initiative taken by a bishop of Auvergne. Unable to abolish a pagan festivity celebrated on Mount Helarius, he built in the same place a church dedicated to Hilarius, a Christian saint. In the second one, Gregory the Great gives the missionaries whom he sent to England instructions to transform pagan temples into Christian churches. Both texts reveal a complex pastoral strategy which, when confronted by paganism, skillfully combines the techniques of destruction and obliteration with that of integration.</dc:description>
+          <dc:description  xml:lang="es">Este trabajo examina dos textos del siglo VI que muestran importantes facetas de la “memoria de los lugares y de los tiempos” en la transición del paganismo al cristianismo. En el primero, Gregorio de Tours relata la iniciativa pastoral de un obispo de Auvergne que, incapaz de eliminar una festividad pagana celebrada en el monte Hilario, construyó en el mismo lugar una iglesia en homenaje del santo cristiano, San Hilario. En el segundo, Gregorio el Grande dió instrucciones a los misionarios que había enviado a Inglaterra, sobre la manera de transformar los templos paganos en iglesias cristianas. Estos dos textos revelan una compleja estrategia pastoral que, frente al paganismo, combina diestramente las categorías de destrucción y obstrucción con aquella de la recuperación.</dc:description>    
+          <dc:subject xml:lang="en">Grégoire de Tours</dc:subject>
+          <dc:subject xml:lang="en">Grégoire le Grand</dc:subject>
+
+          <dc:subject xml:lang="en">Helarius-Hilarius</dc:subject>            
+          <dc:subject xml:lang="fr">christianisation</dc:subject>
+          <dc:subject xml:lang="fr">Grégoire de Tours</dc:subject>
+          <dc:subject xml:lang="fr">Grégoire le Grand</dc:subject>
+          <dc:subject xml:lang="fr">Helarius-Hilarius</dc:subject>
+          <dc:subject xml:lang="fr">survivances païennes</dc:subject>  
+          <dc:subject xml:lang="es">Grégoire de Tours</dc:subject>
+
+          <dc:subject xml:lang="es">Grégoire le Grand</dc:subject>
+          <dc:subject xml:lang="es">Helarius-Hilarius</dc:subject>                                                                                                            </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/17603/17613</identifier>
+
+        <datestamp>2010-05-19T11:24:43Z</datestamp>
+        <setSpec>oai:revues.org:assr:17603</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Catégories et politiques du religieux en Chine</dc:title>
+
+          <dc:creator>Vincent Goossaert</dc:creator>
+          <dc:creator>David Palmer</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2011-10-01</dc:date> 
+          <dc:identifier>http://assr.revues.org/17613</dc:identifier>                                                                                                                              </oai_dc:dc>
+
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/16273/16283</identifier>
+        <datestamp>2010-05-19T11:24:08Z</datestamp>
+        <setSpec>oai:revues.org:assr:16273</setSpec>
+
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Introduction : Africanité et christianité : une interaction première</dc:title>
+          <dc:creator>André Mary</dc:creator>
+          <dc:type>article</dc:type>
+
+          <dc:language>fr</dc:language>
+          <dc:date>2011-07-01</dc:date> 
+          <dc:identifier>http://assr.revues.org/16283</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+
+        <identifier>oai:revues.org:assr/13393/16263</identifier>
+        <datestamp>2010-05-19T11:24:07Z</datestamp>
+        <setSpec>oai:revues.org:assr:13393</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+
+          <dc:title>Ouvrages reçus</dc:title>
+          <dc:type>actualite</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2008-11-26</dc:date> 
+          <dc:identifier>http://assr.revues.org/16263</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/13393/13403</identifier>
+        <datestamp>2010-05-19T11:22:22Z</datestamp>
+        <setSpec>oai:revues.org:assr:13393</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Roberto Ardigò, La scienza della educazione</dc:title>
+          <dc:creator>Michel Ostenc</dc:creator>
+          <dc:type>compterendu</dc:type>
+          <dc:language>fr</dc:language>
+
+          <dc:date>2008-10-21</dc:date> 
+          <dc:identifier>http://assr.revues.org/13403</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/13393/14643</identifier>
+
+        <datestamp>2010-05-19T11:22:19Z</datestamp>
+        <setSpec>oai:revues.org:assr:13393</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Entre sociologie et anthropologie des religions</dc:title>
+
+          <dc:creator>Pierre Lassave</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2011-10-20</dc:date> 
+          <dc:identifier>http://assr.revues.org/14643</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/13393/13463</identifier>
+        <datestamp>2010-05-19T11:21:58Z</datestamp>
+        <setSpec>oai:revues.org:assr:13393</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Le débat Guyau-Durkheim sur la théorie sociologique de la religion. Une nouvelle querelle des universaux ?</dc:title>
+          <dc:creator>Michael C. Behrent</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+
+          <dc:date>2011-10-20</dc:date> 
+          <dc:identifier>http://assr.revues.org/13463</dc:identifier>
+          <dc:description  xml:lang="fr">En 1887, deux jeunes philosophes – Jean-Marie Guyau et Émile Durkheim – engagent une controverse sur la nature de la religion. Alors que chacun reconnaît aux religions un caractère (pour employer le néologisme de Guyau) profondément « sociomorphique » – c’est-à-dire, qu’elles sont des représentations idéalisées des sociétés où elles voient le jour – ils divergent quant à la question essentielle de ce qu’il faut entendre par la « société ». Ce désaccord reformule en termes sociologiques la « querelle des universaux » médiévale : Guyau comprend la société de manière « nominaliste », n’y voyant qu’un mot pour désigner des assemblées où seuls les individus sont réels, alors que le « réaliste » Durkheim affirme que la société existe par-delà les individus qui la constituent. La convergence entre les notions de « religion » et de « société » dans ce débat suggère que le projet de fonder une science laïque de la religion était profondément marqué par des ontologies sociales jaillissant de l’expérience de la modernité politique, ainsi que par les apories constitutives de l’idée d’une « société d’individus ».</dc:description>
+          <dc:description  xml:lang="en">In 1887, two young philosophers – Jean-Marie Guyau and Emile Durkheim – became involved in a debate on the nature of religion. While both held religions to be (to use Guyau’s neologism) profoundly “sociomorphic” – that is, that they are idealized representations of the societies in which they were born – they diverged on the essential question of what should be meant by “society”. This disagreement reformulated, in sociological terms, the medieval “Quarrel of the Universals”: Guyau understood society in a “nominalist” fashion, seeing it as a word for designating groups in which only individuals are real, whereas Durkheim, as a “realist”, affirmed that society exists above and beyond the individuals that constitute it. The convergence between the notions of “religion” and “society” in this debate suggests that the project of founding a secular science of religion was deeply tied to social ontologies arising from the experience of political modernity, as well as to the constitutive aporia of the idea of a “society of individuals”.</dc:description>
+          <dc:description  xml:lang="es">En 1887, dos jóvenes filósofos –Jean-Marie Guyau y Emile Durkheim– abren una controversia sobre la naturaleza de la religión. Mientras que ambos reconocen a las religiones un carácter (para emplear el neologismo de Guyau) profundamente “sociomórfico” –es decir, que son representaciones idealizadas de las sociedades donde nacen– los filósofos se diferencian en cuanto a la cuestión esencial de lo que se entiende por “sociedad”. Este desacuerdo reformula en términos sociológicos la “querella de los universales” medieval: Guyau entiende a la sociedad de manera “nominalista”, viendo en ella apenas una palabra para designar asambleas en las que sólo los individuos son reales, mientras que el “realista” Durkheim afirma que la “sociedad” existe más allá de los individuos que la constituyen. La convergencia entre las nociones de “religión” y “sociedad” en este debate sugiere que el proyecto de fundar una ciencia laica de la religión estaba profundamente marcado por ontologías sociales que brotan de la experiencia de la modernidad política, así como por las aporías constitutivas de la idea de una “sociedad de individuos”.</dc:description>    
+          <dc:subject xml:lang="en">Durkheim (Emile)</dc:subject>
+          <dc:subject xml:lang="en">Guyau (Jean-Marie)</dc:subject>
+
+          <dc:subject xml:lang="en">individualism</dc:subject>
+          <dc:subject xml:lang="en">religious studies</dc:subject>
+          <dc:subject xml:lang="en">society</dc:subject>            
+          <dc:subject xml:lang="fr">Durkheim (Émile)</dc:subject>
+          <dc:subject xml:lang="fr">Guyau (Jean-Marie)</dc:subject>
+          <dc:subject xml:lang="fr">individualisme</dc:subject>
+
+          <dc:subject xml:lang="fr">sciences religieuses</dc:subject>
+          <dc:subject xml:lang="fr">société</dc:subject>  
+          <dc:subject xml:lang="es">ciencias religiosas</dc:subject>
+          <dc:subject xml:lang="es">Durkheim</dc:subject>
+          <dc:subject xml:lang="es">Guyau (Jean-Marie)</dc:subject>
+          <dc:subject xml:lang="es">individualismo</dc:subject>
+
+          <dc:subject xml:lang="es">sociedad</dc:subject>                                                                                                            </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/12372/13122</identifier>
+        <datestamp>2010-05-19T11:21:54Z</datestamp>
+
+        <setSpec>oai:revues.org:assr:12372</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>L’ethnologie aux Archives : un témoignage</dc:title>
+          <dc:creator>Jacques Gutwirth</dc:creator>
+
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2011-07-02</dc:date> 
+          <dc:identifier>http://assr.revues.org/13122</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+
+      <header>
+        <identifier>oai:revues.org:assr/12372/13102</identifier>
+        <datestamp>2010-05-19T11:21:51Z</datestamp>
+        <setSpec>oai:revues.org:assr:12372</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>In Memoriam Jean Séguy (1925-2007)</dc:title>
+          <dc:creator>Danièle Hervieu-Léger</dc:creator>
+          <dc:type>chronique</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2008-07-02</dc:date> 
+          <dc:identifier>http://assr.revues.org/13102</dc:identifier>                                                                                                                              </oai_dc:dc>
+
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/12372/12382</identifier>
+        <datestamp>2010-05-19T11:21:21Z</datestamp>
+        <setSpec>oai:revues.org:assr:12372</setSpec>
+
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Inscrire la mémoire semi-nomade dans l’actualité sédentaire</dc:title>
+          <dc:creator>Marie-Pierre Bousquet</dc:creator>
+          <dc:creator>Anny Morissette</dc:creator>
+
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2011-07-02</dc:date> 
+          <dc:identifier>http://assr.revues.org/12382</dc:identifier>
+          <dc:description  xml:lang="fr">Au Canada, la société québécoise, après avoir été très catholique, a connu un fort mouvement de sécularisation. Face à la désertion des lieux de culte, s’est engagé un débat sur la place des biens d’Église dans le domaine public. Qu’en est-il dans les communautés amérindiennes du Québec, qui comptent aussi chacune une église ? Cet article retrace l’histoire de deux églises de missions, interrogeant leurs places dans la mémoire des oblats de Marie Immaculée et des Amérindiens algonquins et atikamekw. En étudiant les investissements symboliques des différents acteurs sociaux, les auteurs montrent que ces églises, lieux de mémoire polysémiques où l’ornementation évoque le semi-nomadisme, ont inscrit dans l’espace un modèle de type post-colonial, catholique et sédentaire. Mais, dans la réorganisation contemporaine des cadres identitaires, elles représentent aussi un début de décolonisation.</dc:description>
+          <dc:description  xml:lang="en">The province of Quebec in Canada is now highly secularised after a long history of Catholic domination and influence. With Churches now often deserted and unused, a discussion has emerged about the role of Church properties in the public domain. This extends to Amerindian communities in the Province, which each have their own church. This article traces the history of two mission churches and focuses on their place in the memories of the Oblate order and of the Algonquin and Atikamekw First Nations. By evaluating the symbolic investment of the major social actors, the authors show that these churches, decorated with mementœs of the semi-nomadic past, embody a post-colonial, sedentary and Catholic model. In the context of the current reorganisation and re-evaluation of identities, these churches also represent the beginnings of decolonisation.</dc:description>
+
+          <dc:description  xml:lang="es">En Canadá la sociedad quebequense, luego de haber sido profundamente católica, fue testigo de un amplio movimiento de secularización. Ante el abandono de los espacios de culto, se ha abierto el debate en torno al papel de los bienes de la Iglesia como parte del dominio publico. Qué sucede en las comunidades indígenas de Quebec, donde cada una cuenta con una iglesia ? Este artículo recupera la historia de dos iglesias misioneras, interrogándose sobre el lugar que éstas ocupan en la memoria de los Oblatos de María Inmaculada y de los indígenas algonquinos y atikamenses. Examinando las inversiones simbólicas de los diferentes actores sociales las autores muestran cómo tales iglesias, lugares polisémicos de memoria donde la ornamentación rememora el semi nomadismo, han inscripto en el espacio un modelo de tipo poscolonial, católico y sedentario. Aun así, en la reorganización contemporánea de los marcos identitarios, ellas también representan el inicio de la descolonización.</dc:description>    
+          <dc:subject xml:lang="en">churches</dc:subject>
+          <dc:subject xml:lang="en">Native peoples</dc:subject>
+          <dc:subject xml:lang="en">Oblates</dc:subject>            
+          <dc:subject xml:lang="fr">Amérindiens</dc:subject>
+          <dc:subject xml:lang="fr">Canada</dc:subject>
+          <dc:subject xml:lang="fr">églises</dc:subject>
+
+          <dc:subject xml:lang="fr">Oblats</dc:subject>
+          <dc:subject xml:lang="fr">Québec</dc:subject>                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/9643/13133</identifier>
+
+        <datestamp>2010-05-19T11:21:16Z</datestamp>
+        <setSpec>oai:revues.org:assr:9643</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Ouvrages reçus</dc:title>
+
+          <dc:type>actualite</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2008-07-07</dc:date> 
+          <dc:identifier>http://assr.revues.org/13133</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+
+      <header>
+        <identifier>oai:revues.org:assr/9643/9703</identifier>
+        <datestamp>2010-05-19T11:18:28Z</datestamp>
+        <setSpec>oai:revues.org:assr:9643</setSpec>
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Dominique Barthélemy, Chevaliers et miracles. La violence et le sacré dans la société féodale</dc:title>
+          <dc:creator>Jean-Pierre Albert</dc:creator>
+          <dc:type>compterendu</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2008-01-29</dc:date> 
+          <dc:identifier>http://assr.revues.org/9703</dc:identifier>                                                                                                                              </oai_dc:dc>
+
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:assr/9643/11303</identifier>
+        <datestamp>2010-05-19T11:18:16Z</datestamp>
+        <setSpec>oai:revues.org:assr:9643</setSpec>
+
+        <setSpec>oai:revues.org:assr</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Une littérature de la domination religieuse</dc:title>
+          <dc:creator>Christian Décobert</dc:creator>
+          <dc:type>article</dc:type>
+
+          <dc:language>fr</dc:language>
+          <dc:date>2008-07-02</dc:date> 
+          <dc:identifier>http://assr.revues.org/11303</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>  
+  </ListRecords>
+
+</OAI-PMH>
