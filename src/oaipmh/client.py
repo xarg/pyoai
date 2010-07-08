@@ -306,7 +306,14 @@ class BaseClient(common.OAIPMH):
         try:
             self._xmlschema.assertValid(tree)
         except Exception , e:
-            raise error.XMLValidationError
+            if(kw['verb']=='ListRecords' and
+                e.error_log.last_error.message.find(
+                                "record': Missing child element(s)")!=-1):
+                #at least one empty record in record list
+                #will be skipped later in buildRecords
+                pass
+            else:
+                raise error.XMLValidationError
         
         # check whether there are errors first
         e_errors = tree.xpath('/oai:OAI-PMH/oai:error',

@@ -12,3 +12,5 @@ from=2003-04-10T00%3A00%3A00Z&metadataPrefix=oai_dc&verb=ListRecords
 00005.xml
 identifier=hdl%3A1765%2F316&metadataPrefix=oai_dc&verb=GetRecord
 00006.xml
+metadataPrefix=oai_dc&verb=ListRecords
+00007.xml

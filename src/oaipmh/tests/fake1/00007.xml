@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='oai2.xsl' ?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd http://purl.org/dc/terms/ http://dublincore.org/schemas/xmls/qdc/2003/04/02/dcterms.xsd" xmlns:TEI="http://www.tei-c.org/ns/1.0">
+  <responseDate>2010-07-08T12:39:19Z</responseDate>
+  <request verb="ListRecords" metadataPrefix="oai_dc">http://oai.revues.org</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>oai:revues.org:ticetsociete/750/824</identifier>
+
+        <datestamp>2010-05-27T02:05:23Z</datestamp>
+        <setSpec>oai:revues.org:ticetsociete:750</setSpec>
+        <setSpec>oai:revues.org:ticetsociete</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Formes de réception et d’appropriation des ressources numériques en milieu étudiant.</dc:title>
+
+          <dc:creator>Mariangela Roselli</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language></dc:language>
+          <dc:date>2010-05-19</dc:date> 
+          <dc:identifier>http://ticetsociete.revues.org/824</dc:identifier>
+          <dc:description  xml:lang="fr">Une enquête ethnographique sur les publics de la bibliothèque de l’Université de Toulouse-le Mirail (lettres et sciences humaines) réalisée en 2007 et 2008 a permis d’étudier les formes de réception de l’environnement numérisé par les étudiants. Deux scènes observées et deux portraits sociologiques d’usagers sont proposés à titre illustratif des nouvelles pratiques en bibliothèque. Les cas qui ont été choisis montrent l’émergence de rationalités de recherche liées à l’environnement numérique et la nécessité d’une propédeutique des recherches documentaires en ligne. </dc:description>
+          <dc:description  xml:lang="en">An ethnographical inquiry on the users of the university library of the University of Toulouse (France, literature and human sciences) carried out in 2007-2008 shows how students do with the Web environment and electronical resources. Two ethnographical scenes and two sociological portraits are presented to illustrate how computers and numerical resources have generated new practices in university library. The cases described in the paper develop some examples of the new rationalities in scientific research associated with the new environment. They clearly show that a foundamental teaching in numerical environment and research methodology is necessary. </dc:description>
+
+          <dc:description  xml:lang="es">Un estudioetnográfico sobre la BibliotecaPública de la Universidad de Toulouse le Mirail (Letras y CienciasHumanas) realizado en 2.007 y 2.008 permiteestudiar la manera en la que los estudiantesperciben, reciben y usan los recursoselectrónicos. Se observan dos escenas y dos retratossociológicos de los usuariospropuestoscomoejemplo (la traducciónexacta es a títuloilustrativopero en español se dice  « comoejemplo «) de las nuevasprácticas en la bibliotecauniversitaria. Los casos que se eligieronmuestran la emergencialógica de la organizacióndeltiempo y de las actividades en Internet unido al entornoinformático. Se planteantambién la cuestión de la necesidad de unaformación para la investigacióndocumental en línea.</dc:description>    
+          <dc:subject xml:lang="en">new practices</dc:subject>
+          <dc:subject xml:lang="en">new users.</dc:subject>
+          <dc:subject xml:lang="en">numerical environment</dc:subject>
+          <dc:subject xml:lang="en">students</dc:subject>
+          <dc:subject xml:lang="en">university libraries</dc:subject>
+
+          <dc:subject xml:lang="en">young researchers</dc:subject>            
+          <dc:subject xml:lang="fr">bibliothèques universitaires</dc:subject>
+          <dc:subject xml:lang="fr">environnement numérique</dc:subject>
+          <dc:subject xml:lang="fr">étudiants</dc:subject>
+          <dc:subject xml:lang="fr">jeunes chercheurs</dc:subject>
+          <dc:subject xml:lang="fr">nouveaux usagers.</dc:subject>
+
+          <dc:subject xml:lang="fr">nouvelles pratiques</dc:subject>  
+          <dc:subject xml:lang="es">entorno digital bibliotecas universitarias y nuevos usuarios.</dc:subject>
+          <dc:subject xml:lang="es">estudiantes</dc:subject>
+          <dc:subject xml:lang="es">jóvenes investigadores</dc:subject>
+          <dc:subject xml:lang="es">nuevos usos</dc:subject>                                                                                                            </oai_dc:dc>
+      </metadata>
+
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:ticetsociete/750/767</identifier>
+        <datestamp>2010-05-27T02:05:07Z</datestamp>
+        <setSpec>oai:revues.org:ticetsociete:750</setSpec>
+        <setSpec>oai:revues.org:ticetsociete</setSpec>
+
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Introduction</dc:title>
+          <dc:creator>Christian Papilloud</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language></dc:language>
+
+          <dc:date>2010-05-17</dc:date> 
+          <dc:identifier>http://ticetsociete.revues.org/767</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header status="deleted">
+        <identifier>oai:revues.org:rge/856/1838</identifier>
+
+        <datestamp>2010-05-27T02:04:47Z</datestamp>
+        <setSpec>oai:revues.org:rge:856</setSpec>
+        <setSpec>oai:revues.org:rge</setSpec>
+      </header>
+    </record>
+    <record>
+      <header>
+
+        <identifier>oai:revues.org:rga/1158/1164</identifier>
+        <datestamp>2010-05-27T02:03:34Z</datestamp>
+        <setSpec>oai:revues.org:rga:1158</setSpec>
+        <setSpec>oai:revues.org:rga</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+
+          <dc:title>Les territoires fragiles dans la région alpine : une proposition de lecture entre innovation et marginalité</dc:title>
+          <dc:creator>Federica Corrado</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2010-05-26</dc:date> 
+          <dc:identifier>http://rga.revues.org/index1164.html</dc:identifier>
+
+          <dc:description  xml:lang="fr">Cet article propose une lecture et une description des territoires alpins fragiles, en jetant un autre regard, où le concept de fragilité est associé à celui de handicap, c’est-à-dire un autre regard sur l’identification des potentiels locaux spécifiques qui peuvent être encore activés à travers une force créatrice propre aux Alpes. La lecture est effectuée en fonction des territoires alpins fragiles qui font partie des provinces de Turin et Coni et se base sur une analyse empirique des initiatives qui enclenchent en quelque façon des dynamiques micro-territoriales de développement innovant. </dc:description>
+          <dc:description  xml:lang="en">The paper proposes a reading and description of fragile Alpine areas that overturns the conventional standpoint, according to which marginality is often synonymous with handicap. The paper starts form a different point of view, able to recognize specific local potentialities that can still be activated with a specific creative effort. The reading regards fragile Alpine areas in the Provinces of Turin and Cuneo and is based on an empirical analysis of the actions underlying current micro-territorial innovative development trends. </dc:description>    
+          <dc:subject xml:lang="en">fragile areas</dc:subject>
+          <dc:subject xml:lang="en">innovation</dc:subject>
+          <dc:subject xml:lang="en">local development</dc:subject>
+          <dc:subject xml:lang="en">territorial dynamics</dc:subject>            
+          <dc:subject xml:lang="fr">développement local</dc:subject>
+
+          <dc:subject xml:lang="fr">dynamiques territoriales</dc:subject>
+          <dc:subject xml:lang="fr">innovation</dc:subject>
+          <dc:subject xml:lang="fr">territoires fragiles</dc:subject>                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+
+        <identifier>oai:revues.org:rea/4069/4094</identifier>
+        <datestamp>2010-06-01T02:02:52Z</datestamp>
+        <setSpec>oai:revues.org:rea:4069</setSpec>
+        <setSpec>oai:revues.org:rea</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+
+          <dc:title>Démoscopie</dc:title>
+          <dc:type>compterendu</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2010-05-26</dc:date> 
+          <dc:identifier>http://rea.revues.org/index4094.html</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:rea/4069/4091</identifier>
+        <datestamp>2010-06-01T02:02:48Z</datestamp>
+        <setSpec>oai:revues.org:rea:4069</setSpec>
+        <setSpec>oai:revues.org:rea</setSpec>
+
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Sciences sociales : Prof. E. Noelle-Neumann (1916-2010)</dc:title>
+          <dc:creator>Isabelle Bourgeois</dc:creator>
+          <dc:type>chronique</dc:type>
+          <dc:language>fr</dc:language>
+
+          <dc:date>2012-05-01</dc:date> 
+          <dc:identifier>http://rea.revues.org/index4091.html</dc:identifier>                
+          <dc:subject xml:lang="fr">Institut für Demoskopie d’Allensbach (IfD)</dc:subject>
+          <dc:subject xml:lang="fr">journalisme</dc:subject>
+          <dc:subject xml:lang="fr">Noelle-Neumann Elisabeth</dc:subject>
+          <dc:subject xml:lang="fr">recherche</dc:subject>
+          <dc:subject xml:lang="fr">sciences sociales</dc:subject>                                                                                                              </oai_dc:dc>
+
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:rea/4069/4077</identifier>
+        <datestamp>2010-05-27T02:03:12Z</datestamp>
+        <setSpec>oai:revues.org:rea:4069</setSpec>
+
+        <setSpec>oai:revues.org:rea</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>5 ans de Loi Hartz IV : continuité et ruptures dans les politiques allemandes pour l’emploi et contre la pauvreté</dc:title>
+          <dc:creator>Markus Promberger</dc:creator>
+          <dc:type>article</dc:type>
+
+          <dc:language>fr</dc:language>
+          <dc:date>2012-05-01</dc:date> 
+          <dc:identifier>http://rea.revues.org/index4077.html</dc:identifier>
+          <dc:description  xml:lang="fr">En janvier 2005, l’Allemagne a introduit un système uniforme de soutien forfaitaire aux personnes nécessiteuses disposant d’une capacité de travail entière – c’est là une pièce maîtresse des réformes du marché de l’emploi et de la politique sociale menées par la coalition fédérale SPD/Verts alors au gouver­nement. Une Commission baptisée du nom de son président, Peter Hartz, un dirigeant de Volkswagen aujourd’hui tombé en disgrâce dans l’espace public, et composée de scientifiques, managers et responsables politiques de haut rang, avait préparé la réforme du code social allemand (Sozialgesetzbuch, SGB). Après de houleux dé­bats publics, son nouveau Chapitre II (SGB II) est alors entré en vigueur voici cinq ans. Techniquement, il uniformise en les soumettant au même régime admi­nistratif les deux systèmes d’assistance précédemment distincts qu’étaient l’aide aux chômeurs en fin de droits (Arbeitslosenhilfe) et l’aide sociale (Sozialhilfe). Or ce faisant, il introduit, tout au moins dans la rhéto­rique politique comme dans le texte de la loi, une modification profonde des ap­proches et objectifs sous-jacents du Code social. </dc:description>                
+          <dc:subject xml:lang="fr">allocation chômage</dc:subject>
+          <dc:subject xml:lang="fr">assurance sociale</dc:subject>
+          <dc:subject xml:lang="fr">Hartz IV</dc:subject>
+
+          <dc:subject xml:lang="fr">marché du travail</dc:subject>
+          <dc:subject xml:lang="fr">niveau de vie</dc:subject>
+          <dc:subject xml:lang="fr">pauvreté</dc:subject>
+          <dc:subject xml:lang="fr">politique de l’emploi</dc:subject>
+          <dc:subject xml:lang="fr">politique sociale</dc:subject>
+          <dc:subject xml:lang="fr">protection sociale</dc:subject>
+
+          <dc:subject xml:lang="fr">réforme</dc:subject>
+          <dc:subject xml:lang="fr">revenu</dc:subject>
+          <dc:subject xml:lang="fr">sécurité sociale</dc:subject>                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+
+        <identifier>oai:revues.org:rea/4069/4076</identifier>
+        <datestamp>2010-05-27T02:03:09Z</datestamp>
+        <setSpec>oai:revues.org:rea:4069</setSpec>
+        <setSpec>oai:revues.org:rea</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+
+          <dc:title>L’Allemagne sort de la récession</dc:title>
+          <dc:creator>Isabelle Bourgeois</dc:creator>
+          <dc:type>chronique</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2010-05-26</dc:date> 
+          <dc:identifier>http://rea.revues.org/index4076.html</dc:identifier>                
+          <dc:subject xml:lang="fr">budget</dc:subject>
+
+          <dc:subject xml:lang="fr">chômage</dc:subject>
+          <dc:subject xml:lang="fr">commerce extérieur</dc:subject>
+          <dc:subject xml:lang="fr">conjoncture</dc:subject>
+          <dc:subject xml:lang="fr">consommation</dc:subject>
+          <dc:subject xml:lang="fr">crise</dc:subject>
+          <dc:subject xml:lang="fr">exportation</dc:subject>
+
+          <dc:subject xml:lang="fr">finances publiques</dc:subject>
+          <dc:subject xml:lang="fr">investissement</dc:subject>
+          <dc:subject xml:lang="fr">marché du travail</dc:subject>                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+
+        <identifier>oai:revues.org:rea/4069/4075</identifier>
+        <datestamp>2010-05-27T02:03:06Z</datestamp>
+        <setSpec>oai:revues.org:rea:4069</setSpec>
+        <setSpec>oai:revues.org:rea</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+
+          <dc:title>Sauver l’Euro, le challenge franco-allemand de la dernière chance ?</dc:title>
+          <dc:creator>René Lasserre</dc:creator>
+          <dc:type>editorial</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2010-05-26</dc:date> 
+          <dc:identifier>http://rea.revues.org/index4075.html</dc:identifier>                
+          <dc:subject xml:lang="fr">coopération franco-allemande</dc:subject>
+
+          <dc:subject xml:lang="fr">crise</dc:subject>
+          <dc:subject xml:lang="fr">euro</dc:subject>
+          <dc:subject xml:lang="fr">monnaie</dc:subject>
+          <dc:subject xml:lang="fr">politique économique</dc:subject>
+          <dc:subject xml:lang="fr">politique européenne</dc:subject>
+          <dc:subject xml:lang="fr">politique monétaire</dc:subject>
+
+          <dc:subject xml:lang="fr">relations franco-allemandes</dc:subject>
+          <dc:subject xml:lang="fr">UE</dc:subject>
+          <dc:subject xml:lang="fr">Union européenne</dc:subject>                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+
+        <identifier>oai:revues.org:paleo/917/1077</identifier>
+        <datestamp>2010-05-27T02:02:47Z</datestamp>
+        <setSpec>oai:revues.org:paleo:917</setSpec>
+        <setSpec>oai:revues.org:paleo</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+
+          <dc:title>Une statuette en ivoire de 30 000 ans B.P. trouvée au Hohle Fels près de Schelklingen (Baden-Württemberg, Allemagne)</dc:title>
+          <dc:creator>Harald Floss</dc:creator>
+          <dc:creator>Nicholas J. Conard</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2010-05-26</dc:date> 
+          <dc:identifier>http://paleo.revues.org/index1077.html</dc:identifier>
+
+          <dc:description  xml:lang="fr">En 1999, les fouilles menées par l’équipe de l’université de Tübingen au Hohle Fels près de Schelklingen ont permis de découvrir une statuette en ivoire de mammouth représentant une tête d’animal, vraisemblablement de cheval. L’objet provient du niveau géologique 3d dans une position intermédiaire entre des niveaux riches du Gravettien et de l’Aurignacien. Ce niveau est daté d’environ 30 000 B.P. Avec cette découverte, le Hohle Fels est, après le Vogelherd, le Hohlenstein-Stadel et le Geißenklösterle, le quatrième site en grotte dans le sud-ouest de l’Allemagne à avoir livré des statuettes en ivoire du Paléolithique supérieur ancien. Cet ensemble d’objets d’art mobilier fait partie des œuvres d’art les plus anciennes du monde et il est très important pour l’interprétation de l’évolution culturelle de cette époque des derniers néandertaliens et des premiers Hommes modernes en Europe.</dc:description>
+          <dc:description  xml:lang="en">In 1999 researchers from the University of Tübingen recovered an animal head carved from mammoth ivory from Hohle Fels Cave near Schelklingen in southwestern Germany. This figurine resembles a horse and was found in Geological Horizon 3d which lies between rich Gravettian and Aurignacian deposits. Two radiocarbon dates from the immediate vicinity of the piece date around 30,000 years BP. Hohle Fels, along with Vogelherd, Hohlenstein-Stadel and Geißenklösterle, is the forth site from the Swabian Jura to yield ivory figurines dating to the early phases of the Upper Paleolithic. This complex of finds includes artworks that are among the oldest known worldwide and is of unique importance for reconstructing the cultural evolution of the period of the last Neanderthals and earliest modern humans in Europe.</dc:description>
+          <dc:description  xml:lang="de">1999 entdeckten Mitarbeiter der Universität Tübingen im Zuge der Grabungen im Hohle Fels bei Schelklingen eine Tierfigur aus Mammutelfenbein. Dieses wahrscheinlich einen Pferdekopf darstellende Kleinkunstwerk fand sich im geologischen Horizont 3d zwischen reichen Fundschichten des Gravettien und des Aurignacien. Das Niveau des Tierkopfes datiert anhand zweier 14C-Daten um 30.000 BP. Mit dieser Entdeckung ist der Hohle Fels nach dem Vogelherd, dem Hohlenstein-Stadel und dem Geißenklösterle der vierte Fundplatz der Schwäbischen Alb, aus dem Elfenbeinplastiken des frühen Jungpaläolithikums stammen. Dieses Ensemble zählt zum Komplex der ältesten Kunst und ist von großer Bedeutung für die Interpretation der kulturellen Evolution der Zeit der letzten Neandertaler und der ersten modernen Menschen in Europa.</dc:description>    
+          <dc:subject xml:lang="en">Early Upper Paleolithic</dc:subject>
+          <dc:subject xml:lang="en">Hohle Fels Cave</dc:subject>
+          <dc:subject xml:lang="en">ivory figurine</dc:subject>          
+          <dc:subject xml:lang="de">Elfenbeinfigur</dc:subject>
+
+          <dc:subject xml:lang="de">frühes Jungpaläolithikum</dc:subject>
+          <dc:subject xml:lang="de">Hohler Fels</dc:subject>  
+          <dc:subject xml:lang="fr">Grotte de Hohle Fels</dc:subject>
+          <dc:subject xml:lang="fr">Paléolithique supérieur ancien</dc:subject>
+          <dc:subject xml:lang="fr">statuette en ivoire</dc:subject>                                                                                                              </oai_dc:dc>
+      </metadata>
+
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:paleo/917/918</identifier>
+        <datestamp>2010-05-27T02:02:01Z</datestamp>
+        <setSpec>oai:revues.org:paleo:917</setSpec>
+        <setSpec>oai:revues.org:paleo</setSpec>
+
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Éditorial</dc:title>
+          <dc:creator>Jean-Jacques Cleyet-Merle</dc:creator>
+          <dc:type>editorial</dc:type>
+          <dc:language>fr</dc:language>
+
+          <dc:date>2010-05-26</dc:date> 
+          <dc:identifier>http://paleo.revues.org/index918.html</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:rga/1158/1115</identifier>
+
+        <datestamp>2010-07-02T02:03:19Z</datestamp>
+        <setSpec>oai:revues.org:rga</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>La montagne suisse : coopération et réseaux</dc:title>
+          <dc:type>actualite</dc:type>
+
+          <dc:language>fr</dc:language>
+          <dc:date>2010-03-30</dc:date> 
+          <dc:identifier>http://rga.revues.org/index1115.html</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+
+        <identifier>oai:revues.org:rga/1158/955</identifier>
+        <datestamp>2010-05-26T02:03:35Z</datestamp>
+        <setSpec>oai:revues.org:rga</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>2010</dc:title>
+
+          <dc:type>issue</dc:type>
+          <dc:date>2009-11-10</dc:date>
+          <dc:identifier xsi:type="dcterms:URI">http://rga.revues.org/index955.html</dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+
+      <header>
+        <identifier>oai:revues.org:rga/1158/745</identifier>
+        <datestamp>2010-05-26T02:03:30Z</datestamp>
+        <setSpec>oai:revues.org:rga</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+
+          <dc:title>2009</dc:title>
+          <dc:type>issue</dc:type>
+          <dc:date>2009-04-17</dc:date>
+          <dc:identifier xsi:type="dcterms:URI">http://rga.revues.org/index745.html</dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+
+    <record>
+      <header>
+        <identifier>oai:revues.org:rga/1158/946</identifier>
+        <datestamp>2010-05-26T02:03:31Z</datestamp>
+        <setSpec>oai:revues.org:rga</setSpec>
+      </header>
+      <metadata>
+
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Frédéric Bartczak, Johann Rage (dir.) Les Pyrénées entre deux mondes</dc:title>
+          <dc:creator>André Suchet</dc:creator>
+          <dc:type>notedelecture</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2009-11-09</dc:date> 
+          <dc:identifier>http://rga.revues.org/index946.html</dc:identifier>                                                                                                                              </oai_dc:dc>
+
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:rga/1158/949</identifier>
+        <datestamp>2010-05-26T02:03:25Z</datestamp>
+        <setSpec>oai:revues.org:rga</setSpec>
+
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Point d’arrivée de l’Alpine Crossing</dc:title>
+          <dc:creator>Cristina Del Biaggio</dc:creator>
+          <dc:type>compterendu</dc:type>
+          <dc:language>fr</dc:language>
+
+          <dc:date>2009-11-09</dc:date> 
+          <dc:identifier>http://rga.revues.org/index949.html</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:gss/1005/1472</identifier>
+
+        <datestamp>2010-05-26T02:01:52Z</datestamp>
+        <setSpec>oai:revues.org:gss:1005</setSpec>
+        <setSpec>oai:revues.org:gss</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Scott Joan W., Théorie critique de l’histoire. Identités, expériences, politiques, Paris, Fayard, 2009.</dc:title>
+
+          <dc:creator>Bruno Perreau</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2010-05-24</dc:date> 
+          <dc:identifier>http://gss.revues.org/index1472.html</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:gss/1005/1479</identifier>
+        <datestamp>2010-06-22T02:01:04Z</datestamp>
+        <setSpec>oai:revues.org:gss:1005</setSpec>
+        <setSpec>oai:revues.org:gss</setSpec>
+
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Eduquer le désir : Foucault, Freud et les sexualités impériales</dc:title>
+          <dc:creator>Ann Stoler</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+
+          <dc:date>2010-05-18</dc:date> 
+          <dc:identifier>http://gss.revues.org/index1479.html</dc:identifier>
+          <dc:description  xml:lang="fr">Dans cet article, je souhaite aborder deux problèmes : d’une part, la manière dont le langage de Freud s’est établi dans le champ général des études coloniales et, plus spécifiquement, la coexistence parfois complexe entre Sigmund Freud et Michel Foucault dans l’analyse du racisme colonial. Les notions freudiennes de désir sublimé et projeté sont régulièrement combinées pour tenter de rendre compte du racisme et de l’expansion impériale européenne. Et, de manière surprenante, les chercheurs spécialisés en études coloniales ont souvent lu la conduite sexuelle européenne dans les colonies à travers des scripts eux-mêmes coloniaux. Je souhaite revenir ici sur une certaine historiographie impériale et la confronter à la politique sexuelle des états coloniaux pour montrer que les désirs sexuels étaient structurés par des désirs et des discours qui ne se limitaient jamais au sexe. Il me semble au contraire que la culture du soi bourgeois européen définissait les paysages intérieurs des « vrais » Européens et les frontières internes des catégories supérieures auxquels ils étaient constamment rappelés appartenir.</dc:description>
+          <dc:description  xml:lang="en">In this essay, I am interested in two problems: the ways in which the language of Freud has entrenched itself in the general field of colonial studies, and the tangled coexistence of Freud and Foucault, more specifically, in analyses of colonial racism. Racism and Europe's imperial expansion have often been analyzed with Freudian notions of sublimated and projected desire but what is more striking is that students of colonialism have often taken their readings of European sexual conduct in the colonies directly from colonial scripts themselves. Here I review some recent trends in imperial historiography and contrast them to the sexual politics of colonial states to suggest that sexual desires were structured by desires and discourses that were never about sex alone. Here I argue that cultivation of the European bourgeois self at once defined the interior landscapes of "true" Europeans and the interior frontiers of the superior polities to which they were constantly reminded they rightfully belonged.</dc:description>    
+          <dc:subject xml:lang="en">desire</dc:subject>
+          <dc:subject xml:lang="en">empire</dc:subject>
+
+          <dc:subject xml:lang="en">historiography</dc:subject>
+          <dc:subject xml:lang="en">race</dc:subject>
+          <dc:subject xml:lang="en">repression</dc:subject>            
+          <dc:subject xml:lang="fr">désir</dc:subject>
+          <dc:subject xml:lang="fr">empire</dc:subject>
+          <dc:subject xml:lang="fr">historiographie</dc:subject>
+
+          <dc:subject xml:lang="fr">race</dc:subject>
+          <dc:subject xml:lang="fr">répression</dc:subject>                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:gss/1005/1347</identifier>
+
+        <datestamp>2010-05-26T02:01:35Z</datestamp>
+        <setSpec>oai:revues.org:gss:1005</setSpec>
+        <setSpec>oai:revues.org:gss</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Le matin des sociologues. Entretien avec Alain Touraine</dc:title>
+
+          <dc:creator>Michel-Antoine Burnier</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2010-05-18</dc:date> 
+          <dc:identifier>http://gss.revues.org/index1347.html</dc:identifier>
+          <dc:description  xml:lang="fr">Nous publions ici l’entretien que le sociologue Alain Touraine accorda au magazine Actuel en 1972. Il revient sur les mouvements contestataires étudiants de Mai 68 et sur les nouvelles problématiques sociales émergeantes, dont la sexualité. Il insiste notamment sur les modalités par lesquelles dans la société post-industrielle les rapports de pouvoir s’agencent et sur les conditions de production de l’action sociale. Et partant, sur les conditions d’émergence d’une pensée sociologique. Voici comment la rédaction d’Actuel présentait l’entretien : « Alain Touraine fut professeur de sociologie à Nanterre en 1968. Il a vu de fort près, autour de Cohn-Bendit son élève, naître et fuser le mouvement que l’on sait. Parce qu’il avait consacré ses travaux à l’analyse de la conscience ouvrière et du travail industriel, il s’est refusé à réduire la révolte étudiante et les luttes de mai à un sursaut intellectuel et petit-bourgeois ou à la régénération par procuration d’un prolétariat traditionnel secouant le joug réformiste. Le mouvement était plus ample et différent. Techniciens, jeunes travailleurs, étudiants, lycéens se soulèvent contre l’emprise des grands appareils technocratiques : les vieux discours devraient s’en ressentir et une nouvelle sociologie pourrait en naître. Touraine s’y essaie dans La société post-industrielle (Denoël-Gonthier, Médiations, 7,80 F), Le communisme utopique (qui reparaît aujourd’hui en livre de poche, Le Seuil, Politique) et son dernier livre (au Seuil encore) Université et société aux États-Unis ».</dc:description>
+
+          <dc:description  xml:lang="en">We’re publishing here the interview that Alain Touraine gave to the magazine "Actuel" in 1972. He goes back over the student protest movements of May 1968 and the new emerging social problematisations, among which sexuality. He especially insists on the modalities by which the balances of power establish themselves in post-industrial societies and on the conditions of production in social action. And therefore on the conditions of the emergence of a sociologic reasoning. This is how the editors of Actuel presented the interview: "Alain Touraine was sociology professor at the University of Nanterre in 1968. He saw close up, around his student Cohn-Bendit, the birth and the gush of the movement we all know. As he had devoted his studies to the analyses of the workers' consciousness and to industrial work, he refused to reduce the students' revolt and the protests to an intellectual and middle-class burst of energy or to the vicarious regeneration of a traditional proletariat shaking off the reformist yoke. The movement was much wider and different. Technicians, young workers, college and high-school students rose up against the grips of the big technocratic systems: the old discourses had to be affected by it and a new sociology could be born. Touraine will try to do so in "La société post-industrielle" (Denoël-Gonthier, Médiations, 7,80 F), "Le communisme utopique" (now out in pocket-book, Le Seuil, Politique) and in his latest book (also at Le Seuil) "Université et société aux Etats-Unis".</dc:description>    
+          <dc:subject xml:lang="en">Actuel</dc:subject>
+          <dc:subject xml:lang="en">Alain Touraine</dc:subject>
+          <dc:subject xml:lang="en">May 68</dc:subject>
+          <dc:subject xml:lang="en">power</dc:subject>
+          <dc:subject xml:lang="en">sociology</dc:subject>            
+          <dc:subject xml:lang="fr">Actuel</dc:subject>
+
+          <dc:subject xml:lang="fr">Alain Touraine</dc:subject>
+          <dc:subject xml:lang="fr">Mai 68</dc:subject>
+          <dc:subject xml:lang="fr">pouvoir</dc:subject>
+          <dc:subject xml:lang="fr">sociologie</dc:subject>                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+
+    <record>
+      <header>
+        <identifier>oai:revues.org:gss/1005/1441</identifier>
+        <datestamp>2010-05-26T02:01:32Z</datestamp>
+        <setSpec>oai:revues.org:gss:1005</setSpec>
+        <setSpec>oai:revues.org:gss</setSpec>
+      </header>
+
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Des femmes font sécession. Récits de vies et itinéraires amoureux de féministes et lesbiennes des années 1970</dc:title>
+          <dc:creator>Françoise Flamant</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2010-05-18</dc:date> 
+          <dc:identifier>http://gss.revues.org/index1441.html</dc:identifier>
+
+          <dc:description  xml:lang="fr">Françoise Flamant a publié en 2007 le livre À tire d’elles. Itinéraires de féministes radicales des années 1970, dans lequel elle recueille le témoignage de femmes engagées de près ou de loin dans le Mouvement de Libération des Femmes (MLF), se réclamant toutes des luttes féministes, mais aussi lesbiennes. Nous lui avons demandé de revenir sur ses souvenirs. Elle montre dans cet article la complexité des trajectoires individuelles et l’extrême richesse des expérimentations politiques de ces années 1970 : la vie en communauté, l’exil, l’écriture. Revenant également sur l’inscription théorique de leur engagement politique et sur leur travail de bricolage idéologique, Flamant insiste sur l’importance qu’eurent pour elles les figures théoriques principales de la « libération » de Simone de Beauvoir à Monique Wittig, en passant par Herbert Marcuse, traduit en 1968 par Wittig elle-même.</dc:description>
+          <dc:description  xml:lang="en">In 2007 Françoise Flamant published a book titled A tire d’elles. Itinéraires de féministes radicales des années 1970, in which she collects the testimonies of women engaged in the Liberation Movement, who identified with both feminist and lesbian political struggles. She gives here an account of her history and analyses these movements. She shows the complexity of individual trajectories and the extreme richness of the political experiences in the 70s, she and her comrades developed: communal life, exile, writing. Also reexamining the theoretical context of their political engagement and their ideological bricolage, Flamant insits on the importance of leading theorists, from Simone de Beauvoir to Monique Wittig, but also Herbert Marcuse who was translated by Wittig herself. </dc:description>    
+          <dc:subject xml:lang="en">70s</dc:subject>
+          <dc:subject xml:lang="en">engagement</dc:subject>
+          <dc:subject xml:lang="en">French Liberation Movement (MLF)</dc:subject>
+          <dc:subject xml:lang="en">lesbians</dc:subject>
+
+          <dc:subject xml:lang="en">testimony</dc:subject>            
+          <dc:subject xml:lang="fr">années 1970</dc:subject>
+          <dc:subject xml:lang="fr">engagement</dc:subject>
+          <dc:subject xml:lang="fr">lesbiennes</dc:subject>
+          <dc:subject xml:lang="fr">MLF</dc:subject>
+          <dc:subject xml:lang="fr">témoignage</dc:subject>                                                                                                              </oai_dc:dc>
+
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:gss/1005/1438</identifier>
+        <datestamp>2010-05-26T02:01:16Z</datestamp>
+        <setSpec>oai:revues.org:gss:1005</setSpec>
+
+        <setSpec>oai:revues.org:gss</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Le moment 70 de la sexualité : de la dissidence identitaire en milieu militant</dc:title>
+          <dc:creator>Massimo Prearo</dc:creator>
+          <dc:type>article</dc:type>
+
+          <dc:language>fr</dc:language>
+          <dc:date>2010-05-18</dc:date> 
+          <dc:identifier>http://gss.revues.org/index1438.html</dc:identifier>
+          <dc:description  xml:lang="fr">Face à la difficulté de situer l’action politique des féministes, des homosexuels et des lesbiennes dans la séquence historique des années 1968, tantôt abusivement rattachée aux événements de Mai 68, tantôt appréhendée comme surgissant dans l’après-coup du « moment 68 », la recherche de nouveaux paradigmes d’interprétation semble nécessaire. Cet article, sans résumer l’expérience politique des années 1970 ni donner à voir la complexité du paysage militant homosexuel, vise à définir le moment 70 de la sexualité comme un moment historique spécifique relevant de logiques d’action propres. La dissidence identitaire, en particulier, constitue une pratique militante fondée sur l’expérience de l’identité comme forme d’appropriation subjective d’une signification objective, c’est-à-dire comme un travail quotidien de composition liant les cadres politiques du militantisme traditionnel et les cadres sociaux de la sexualité. </dc:description>
+          <dc:description  xml:lang="en">Confronting the difficulty of situating the political action of feminists, homosexuals and lesbians in the historical sequence of the 1968’s, sometimes improperly linked to the events of May 68, sometimes apprehended as cropping up in the wake of the “68’s moment”, research for new paradigms seems necessary. This article, far from pretending to resume the political experience of the 70’s or to show the complexity of the homosexual, gay and lesbian, militant scene, aims at defining the sexual moment of the 70’s as a specific historical moment, inscribed in the sequence of 1968, but springing from the logic of its proper actions. The identity dissidence in particular forms a militant practice founded on the identity experience as a form of subjective appropriation of objective signification, that is to say as a daily job of composition, linking the political structures of traditional militantism with social structures of sexuality.</dc:description>    
+          <dc:subject xml:lang="en">70s</dc:subject>
+          <dc:subject xml:lang="en">activism</dc:subject>
+
+          <dc:subject xml:lang="en">homosexual movements</dc:subject>
+          <dc:subject xml:lang="en">identities</dc:subject>
+          <dc:subject xml:lang="en">May 68</dc:subject>            
+          <dc:subject xml:lang="fr">années 1970</dc:subject>
+          <dc:subject xml:lang="fr">identités</dc:subject>
+          <dc:subject xml:lang="fr">Mai 68</dc:subject>
+
+          <dc:subject xml:lang="fr">militantisme</dc:subject>
+          <dc:subject xml:lang="fr">mouvements homosexuels</dc:subject>                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:gss/1005/1478</identifier>
+
+        <datestamp>2010-05-26T02:01:14Z</datestamp>
+        <setSpec>oai:revues.org:gss:1005</setSpec>
+        <setSpec>oai:revues.org:gss</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Politiques de la libération sexuelle</dc:title>
+
+          <dc:creator>Massimo Prearo</dc:creator>
+          <dc:type>article</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2010-05-18</dc:date> 
+          <dc:identifier>http://gss.revues.org/index1478.html</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:asp/1390/1396</identifier>
+        <datestamp>2010-05-20T02:02:53Z</datestamp>
+        <setSpec>oai:revues.org:asp:1390</setSpec>
+        <setSpec>oai:revues.org:asp</setSpec>
+
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Foreword</dc:title>
+          <dc:creator>Sue Birch-Bécaas</dc:creator>
+          <dc:type>editorial</dc:type>
+          <dc:language>en</dc:language>
+
+          <dc:date>2010-05-18</dc:date> 
+          <dc:identifier>http://asp.revues.org/1396</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:revues.org:asp/1390/1391</identifier>
+
+        <datestamp>2010-05-20T02:02:51Z</datestamp>
+        <setSpec>oai:revues.org:asp:1390</setSpec>
+        <setSpec>oai:revues.org:asp</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Éditorial</dc:title>
+
+          <dc:creator>Michel Petit</dc:creator>
+          <dc:type>editorial</dc:type>
+          <dc:language>fr</dc:language>
+          <dc:date>2010-05-18</dc:date> 
+          <dc:identifier>http://asp.revues.org/1391</dc:identifier>                                                                                                                              </oai_dc:dc>
+      </metadata>
+
+    </record>
+    <record></record>  
+  </ListRecords>
+</OAI-PMH>

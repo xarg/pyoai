@@ -163,6 +163,16 @@ class ClientTestCase(TestCase):
         self.assertRaises(error.UnexpectedResponse,fakeclient.getRecord,
             metadataPrefix='oai_dc', identifier='hdl:1765/316')
         
+    def test_ListRecords_with_one_empty_record(self):
+        #shouldn't raise error, empty record skipped later, although XSD error
+        records=fakeclient.listRecords(metadataPrefix='oai_dc')
+        records = list(records)
+        # lazy, just test first one
+        header, metadata, about = records[0][0]
+        self.assertEquals(
+            'oai:revues.org:ticetsociete/750/824',
+            header.identifier())
+
             
 def test_suite():
     return TestSuite((makeSuite(ClientTestCase), ))
