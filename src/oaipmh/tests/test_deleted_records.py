@@ -28,12 +28,12 @@ class DeletedRecordsTestCase(TestCase):
         records = fakeclient.listRecords(from_=datetime(2004, 01, 01),
                                          metadataPrefix='oai_dc')
         # lazy, just test first one
-        for header, metadata, about in records:
+        for (header, metadata, about), token in records:
             if header.isDeleted():
                 self.assert_(metadata is None)
             else:
                 self.assert_(metadata is not None)
-    
+
 def test_suite():
     return TestSuite((makeSuite(DeletedRecordsTestCase), ))
 
