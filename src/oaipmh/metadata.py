@@ -3,7 +3,7 @@ from lxml.etree import SubElement
 from oaipmh import common
 
 # key to find xml:lang tags
-LANG_KEY = '{http://www.w3.org/XML/1998/namespace}lang' 
+LANG_KEY = '{http://www.w3.org/XML/1998/namespace}lang'
 
 class MetadataRegistry(object):
     """A registry that contains readers and writers of metadata.
@@ -14,10 +14,11 @@ class MetadataRegistry(object):
     a writer is a function that takes a takes a metadata object and
     produces a chunk of XML in the right format for this metadata.
     """
-    def __init__(self):
+    def __init__(self, flags=[]):
         self._readers = {}
         self._writers = {}
-        
+        self._flags = flags
+
     def registerReader(self, metadata_prefix, reader):
         self._readers[metadata_prefix] = reader
 
@@ -26,10 +27,10 @@ class MetadataRegistry(object):
 
     def hasReader(self, metadata_prefix):
         return metadata_prefix in self._readers
-    
+
     def hasWriter(self, metadata_prefix):
         return metadata_prefix in self._writers
-    
+
     def readMetadata(self, metadata_prefix, element):
         """Turn XML into metadata object.
 
@@ -37,11 +38,12 @@ class MetadataRegistry(object):
 
         returns - metadata object
         """
+        self._readers[metadata_prefix]._flags = self._flags
         return self._readers[metadata_prefix](element)
 
     def writeMetadata(self, metadata_prefix, element, metadata):
         """Write metadata as XML.
-        
+
         element - ElementTree element to write under
         metadata - metadata object to write
         """
@@ -65,9 +67,9 @@ class MetadataReader(object):
     def __call__(self, element):
         map = {}
         # create XPathEvaluator for this element
-        xpath_evaluator = etree.XPathEvaluator(element, 
+        xpath_evaluator = etree.XPathEvaluator(element,
                                                namespaces=self._namespaces)
-        
+
         e = xpath_evaluator.evaluate
         # now extra field info according to xpath expr
         for field_name, (field_type, expr) in self._fields.items():
@@ -135,5 +137,3 @@ oai_dc_reader = MetadataReader(
     'oai_dc': 'http://www.openarchives.org/OAI/2.0/oai_dc/',
     'dc' : 'http://purl.org/dc/elements/1.1/'},
     )
-
-    
