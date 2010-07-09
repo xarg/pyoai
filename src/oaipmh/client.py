@@ -28,7 +28,7 @@ class BaseClient(common.OAIPMH):
         self._ignore_bad_character_hack = 0
         self._day_granularity = False
         '''save XSD in a property for future use in xml-response validation'''
-        f=open(os.path.join(os.path.dirname(__file__),"tests/OAI-PMH.xsd"))
+        f=open(os.path.join(os.path.dirname(__file__),"OAI-PMH.xsd"))
         xmlschema_tree = etree.parse(f)
         self._xmlschema = etree.XMLSchema(xmlschema_tree)
         f.close()

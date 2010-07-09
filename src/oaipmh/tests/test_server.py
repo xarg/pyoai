@@ -14,7 +14,7 @@ def fileInTestDir(name):
     return os.path.join(_testdir, name)
 
 # load up schema
-oaischema = etree.XMLSchema(etree.parse(fileInTestDir('OAI-PMH.xsd')))
+oaischema = etree.XMLSchema(etree.parse(os.path.join(os.path.dirname(__file__),"../OAI-PMH.xsd")))
 
 class XMLTreeServerTestCase(unittest.TestCase):
     
