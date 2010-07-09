@@ -38,7 +38,8 @@ class MetadataRegistry(object):
 
         returns - metadata object
         """
-        self._readers[metadata_prefix]._flags = self._flags
+        if self._flags:
+            self._readers[metadata_prefix]._flags = self._flags
         return self._readers[metadata_prefix](element)
 
     def writeMetadata(self, metadata_prefix, element, metadata):
