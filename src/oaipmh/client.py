@@ -46,6 +46,10 @@ class BaseClient(common.OAIPMH):
             raise Error, "Non-standard granularity on server: %s" % granularity
 
     def handleVerb(self, verb, kw):
+        # if kw contains 'setSpec' transform the keymap to 'set'
+        if kw.has_key('setSpec'):
+            kw['set'] = kw['setSpec']
+            del kw['setSpec']
         # validate kw first
         validation.validateArguments(verb, kw)
         # encode datetimes as datestamps

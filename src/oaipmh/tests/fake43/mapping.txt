@@ -1,0 +1,8 @@
+metadataPrefix=oai_dc&verb=ListRecords
+00000.xml
+resumptionToken=%2C%2C%2Coai_dc%2C100&verb=ListRecords
+00001.xml
+metadataPrefix=oai_dc&set=san%3A052%3ACULARB%3A02&verb=ListRecords
+00002.xml
+resumptionToken=%2C%2Csan%3A052%3ACULARB%3A02%2Coai_dc%2C100&verb=ListRecords
+00003.xml
