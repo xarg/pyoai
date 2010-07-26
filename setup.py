@@ -28,12 +28,12 @@ http://www.openarchives.org/OAI/openarchivesprotocol.html
 With it, you can easily harvest existing OAI-PMH compliant data providers,
 as well as construct your own OAI-PMH data provider.
 """,
-    
+
     packages=find_packages('src'),
     package_dir = {'': 'src'},
     data_files = [('oaipmh',['src/oaipmh/OAI-PMH.xsd'])],
     zip_safe=False,
     license='BSD',
     keywords='OAI-PMH xml archive',
-    install_requires=['lxml'],
+    install_requires=['lxml == 2.2.7'], #2.3alpha is missing
 )
