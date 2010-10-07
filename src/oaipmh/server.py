@@ -198,7 +198,11 @@ class XMLTreeServer(object):
             resumptionToken = kw['resumptionToken']
             result, token = input_func(resumptionToken=resumptionToken)
             # unpack keywords from resumption token
-            token_kw, dummy = decodeResumptionToken(resumptionToken)
+            #token_kw, dummy = decodeResumptionToken(resumptionToken)
+
+            #HACK.. this should be fixed because the I don't like how the pyoai
+            #handles resuptionToken decoding
+            token_kw = {'metadataPrefix': resumptionToken.split(',')[0]}
         else:
             result, token = input_func(**kw)
             # if we don't get results for the first request,
