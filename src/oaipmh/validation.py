@@ -14,6 +14,8 @@ def validate(argspec, dict):
         if not argspec.has_key(key):
             msg = "Unknown argument: %s" % key
             raise BadArgumentError, msg
+        if not isinstance(value, basestring):
+            raise BadArgumentError, "Argument must be string or unicode"
     # first investigate if we have exclusive argument
     if dict.has_key(exclusive):
         if len(dict) > 1:
@@ -87,4 +89,3 @@ def validateArguments(verb, kw):
 
 def validateResumptionArguments(verb, kw):
     validate(getattr(ResumptionValidationSpec, verb), kw)
-    
